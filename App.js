@@ -2,20 +2,26 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
+
+
+
+// import Welcome from './screens/Welcome';
+// import Ex1 from './screens/Ex1';
+// import Ex2 from './screens/Ex2';
+// import Ex3 from './screens/Ex3';
+// import Ex4 from './screens/Ex4';
+// import Ex5 from './screens/Ex5';
+//  import Ex6 from './screens/Ex6';
+// import Ex7 from './screens/Ex7';
+// import Ex8 from './screens/Ex8';
+// import Ex9 from './screens/Ex9';
+// import Ex10 from './screens/Ex10';
+// import Ex11 from './screens/Ex11';
+// import Ex12 from './screens/Ex12';
+ import Bmi from './screens/Bmi';
+
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Bmi/>    
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
